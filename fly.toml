@@ -1,4 +1,4 @@
-app = "stripe-stack"
+app = "holytea-stripe-sub-app"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = [ ]
