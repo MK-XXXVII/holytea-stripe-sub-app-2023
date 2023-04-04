@@ -1,0 +1,7 @@
+runtime: python38
+service: my-service
+entrypoint: gunicorn -b :$PORT main:app
+
+env_variables:
+  STRIPE_SECRET_KEY: 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
+  STRIPE_PUBLISHABLE_KEY: pk_live_geRV33ML7CVEph2MQo3q72nq00MQpxEiJz
